@@ -1,0 +1,13 @@
+package com.hlzhu.classes;
+
+import com.hlzhu.interfaces.Color;
+
+public class Red implements Color {
+
+	@Override
+	public void fill() {
+		// TODO Auto-generated method stub
+		System.out.println("Inside Red::fill() method.");
+	}
+
+}
